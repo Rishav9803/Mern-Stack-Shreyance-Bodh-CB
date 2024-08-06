@@ -49,3 +49,34 @@ color: red;
 .nav-item:active{
     background-color: orange;
 }
+
+/* ===============Structural pseudo class================ */
+/* li:first-child{
+    color: orange;
+}
+
+li:last-child{
+    color: green;
+}
+
+li:nth-child(3){
+    background-color: plum;
+} */
+
+li:nth-child(2n+0){
+    background-color: palegoldenrod;
+}
+
+/* ============Pseudo-Element============== */
+.call::before{
+    content: "\01F4DE";
+}
+.call::after{
+    content: "\01F4DE";
+}
+p::first-line{
+    color: crimson;
+}
+p::first-letter{
+    font-size: 40px
+}
