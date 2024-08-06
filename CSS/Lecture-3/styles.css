@@ -1,0 +1,28 @@
+*{
+    border: 3px solid goldenrod;
+    margin: 0;
+    padding: 0;
+}
+/* p{
+    color: red;
+}
+h2{
+    color: aqua;
+}
+#Hare{
+    color: purple;
+} */
+.Krsna {
+    color: rgb(7, 129, 236);
+    border: 2px solid red;
+}
+
+a[href="https://google.com"] {
+    color: red;
+    border: 2px solid pink;
+    background-color: black;
+}
+
+input[type="password"]{
+    background-color: rgb(23, 23, 2);
+}

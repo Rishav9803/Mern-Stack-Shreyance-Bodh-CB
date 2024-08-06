@@ -1,0 +1,51 @@
+/* ==========1. Descendent Combinators
+div div span{
+    background-color: blueviolet;
+}
+
+/* ===========2. Direct Child */
+/* ul>li {
+    color: red;
+} */
+
+
+/* 3. ==============Immediate Sibling= jaise govinda ke sib madhav the to wo laal hogaye*/
+/* li+li{
+color: red;
+} */
+
+/* 4. =========General Sibling */
+/* li~li{
+    color: orange;
+} */
+
+
+
+
+
+/* ==================== navbar ====================== decoration using pesudo class */
+.navbar{
+    border: 2px solid purple;
+    background-color: black;
+}
+
+.nav-item:link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 0px 8px;
+}
+
+.nav-item:visited{
+    color: white;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.nav-item:active{
+    background-color: orange;
+}
