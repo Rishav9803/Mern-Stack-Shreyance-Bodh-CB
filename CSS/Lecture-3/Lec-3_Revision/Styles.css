@@ -1,0 +1,126 @@
+/*
+p {
+    font-size: xx-large;
+    font-style: italic;
+     This is a element selector 
+}
+
+#hari {
+    color: navajowhite;
+    background-color: hotpink;
+     This is a id selector 
+}
+
+.hari {
+    display: contents;
+    color: darkgoldenrod;
+     This is a class selector 
+}
+
+a[href="https://vedabase.in"]{
+    box-shadow: 2px;
+    background-color: rgb(132, 108, 63);
+     This is attribute selector 
+}
+ ===============Advance Selector============ 
+div div div div{
+    font-size: xx-large;
+     This is a descendent-combinator
+}
+ div>li{
+    background-color: brownn
+     This is a direct child combinator
+ }
+ul>li{
+    color: brown;
+     This is also a direct child combinator
+}
+
+li+li{
+    font-size: xx-small;
+     This is a general sibling 
+}
+
+li~li{
+    font-style: italic;
+}
+ */
+
+/* navbar decoration using pseudo class */
+
+.navbar {
+    background-color: rgb(232, 70, 11);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.nav-item:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 0px 8px;
+}
+
+.nav-item:visited{
+    color: white;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.nav-item:active{
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* List designing by Structural pseudo class */
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(5){
+    color: red;
+}
+li:nth-child(5n+3){
+    color: blueviolet;
+}
+/* List Designed using Pseudo Element */
+
+.go::before{
+    content: "\01F4DE";
+}
+.Hari::after{
+    content: "\1F64F";
+}
+.Hari::before{
+    content: "\1F64F";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
