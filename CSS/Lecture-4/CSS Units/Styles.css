@@ -1,0 +1,30 @@
+
+.outer-container {
+    border: 2px solid rgb(255, 0, 0);
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+}
+.inner-container{
+   border: 2px solid black; 
+   width: 25vw;
+   height: 20vh;
+}
+p{
+    font-size: 20px;
+}
+/* div{
+    font-size: 10px;
+} */
+
+html {
+    font-size: 14px;
+}
+
+.learn_em li {
+    font-size: 2em;
+}
+
+.learn_rem li {
+    font-size: 2rem;
+}

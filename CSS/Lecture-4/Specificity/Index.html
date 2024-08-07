@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <style>
+      #heading {
+        color: aqua;
+      }
+    </style>
+    <!-- there is more specificity of style tag because its written in html page and html page reads from 1 to 2, 3 ,4 goes on...s -->
+  </head>
+  <body>
+    <h1>Specificity</h1>
+
+    <h1 class="item" id="heading">This is a heading-1</h1>
+    <h1 class="item">This is a heading-2</h1>
+    <h1 class="item">This is a heading-3</h1>
+    <h1 class="item">This is a heading-4</h1>
+    <h1 class="item">This is a heading-5</h1>
+  </body>
+</html>
