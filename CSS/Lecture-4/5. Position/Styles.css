@@ -1,0 +1,27 @@
+h1, p, h2, h4{
+    border: 2px solid black;
+}
+/* relative */
+h2{
+    position: relative;
+    top: 20px;
+    background-color: yellow;
+    left: 30px;
+}
+/* absolute */
+.parent{
+    position: relative;
+}
+
+h3{
+    background-color: red;
+    position: absolute;
+    top: 50px;
+}
+
+h4{
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
