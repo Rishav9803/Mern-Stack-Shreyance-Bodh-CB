@@ -1,0 +1,38 @@
+.parent{
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 12px;
+    
+}
+
+.child5{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 20px;
+    margin-right: 18px;
+}
+.child5:hover{
+    text-decoration: underline;
+}
+.Child4:hover{
+    text-decoration: underline;
+}
+.Child3:hover{
+    text-decoration: underline;
+}
+.Child2:hover{
+    text-decoration: underline;
+}
+.Child1:hover{
+    text-decoration: underline;
+}

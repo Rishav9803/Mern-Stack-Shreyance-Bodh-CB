@@ -1,0 +1,25 @@
+.parent {
+    background-color: orange;
+    border: 2px solid black;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* row, row-reverse */
+    /* flex-direction: row-reverse; */
+    /* column, column-reverse */
+    /* flex-direction: row; */
+    /* justify-content: center ; */
+    align-items: start;
+    border-radius: 50px;
+}
+
+.child {
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 100px;
+    /* height: 100px; */
+    background-color: red;
+    margin: 12px;
+    text-align: justify;
+
+}
