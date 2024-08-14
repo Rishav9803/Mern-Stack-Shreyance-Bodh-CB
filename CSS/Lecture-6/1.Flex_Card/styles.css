@@ -1,0 +1,31 @@
+.container {
+    /* border: 2px solid pink; */
+    /* background-color: aquamarine; */
+     width: 70vw;
+    /*height: 70vh; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    border: 2px solid black; 
+    /* border-radius: 10px; */
+    height: 280px;
+    width: 180px;
+    padding: 10px;
+}
+
+.section-A img {
+    width: 100%;
+}
+
+p{
+    font-size: 10px;
+}
