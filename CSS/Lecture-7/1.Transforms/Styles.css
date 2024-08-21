@@ -1,0 +1,40 @@
+.container{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+    margin: 0 auto;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    /*====================================rotate*/
+    /*transform: rotatey(89deg);
+    /*transform: rotatex(89deg);
+    /*transform: rotate(89deg); it'll consider z
+    /*transform: rotateY(89deg) rotateX(89deg);*/
+
+    /*=====================================scale*/
+    /* transform: scale(0.9); */
+
+    /*=================================translate*/
+    /* transform: translateX(80px); */
+    /* ===================================skew */
+    /* transform: skewZ(45deg); */
+    transition-duration: 1s;
+}
+
+.container:hover{
+    transform: translateY(200px);
+}
+
+.cont-2{
+    position: relative;
+    /* position: absolute; */
+    background-color: burlywood;
+    z-index: 2;
+}
+
+#para{
+    background-color: #ff0000;
+}

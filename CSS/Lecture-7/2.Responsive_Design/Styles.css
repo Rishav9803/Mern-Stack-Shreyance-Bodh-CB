@@ -1,0 +1,11 @@
+.cont{
+    /* width: 1000px; */
+    width: 80%;
+    border: 2px solid black;
+}
+
+@media screen and (max-width:600px) {
+    .cont{
+        width: 100%;
+    }
+}
