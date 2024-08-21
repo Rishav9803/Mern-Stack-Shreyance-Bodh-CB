@@ -3,8 +3,8 @@ h1, p, h2, h4{
 }
 /* relative */
 h2{
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 190px;
     background-color: yellow;
     left: 30px;
 }

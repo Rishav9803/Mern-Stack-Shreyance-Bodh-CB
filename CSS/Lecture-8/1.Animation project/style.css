@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background: url(../IMG/Space.png) rgb(79, 79, 159); 
+    position: relative;
+    animation: bgmove 8s forwards;
+}
+
+.rocket{
+    height: 200px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    animation: Rocketmove 2s ease-in-out infinite,
+               codyAndRocket 1s ease-in-out 15s forwards,
+               RocketLaunch 3s ease-in-out 16s forwards ;
+}
+.rocketImg{
+    height: 100%;
+    transform: rotateZ(43deg);
+}
+
+.cody{
+    height: 170px;
+    position: relative;
+    top: 460px; 
+    left: -200px;
+    animation: codyStanding 3s ease-in-out infinite,
+               codyMoveForward 4s ease-in-out 8s forwards,
+               codyInRocket 2s ease-in-out 12s forwards;
+}
+
+
+@keyframes Rocketmove {
+    0%{
+        top: 50%;
+    }
+    50%{
+        top: 42%;
+    }
+    100%{
+        top: 50%;
+    }
+}
+
+@keyframes bgmove {
+    100%{
+        background-position: -5200px;
+    }
+}
+
+@keyframes codyStanding {
+    50%{
+        top: 420px;
+    }
+}
+
+@keyframes codyMoveForward {
+    from{
+        left: -200px;
+    }
+
+    to{
+        left: 270px;
+    }
+}
+
+@keyframes codyInRocket {
+    100%{
+        top: 53%;
+        left: 520px;
+        transform: scale(0);
+    }
+}
+
+@keyframes codyAndRocket {
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes RocketLaunch {
+    100%{
+        top: -300%;
+    }
+}
