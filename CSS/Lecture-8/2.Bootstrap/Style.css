@@ -1,0 +1,13 @@
+.div1{
+    height: 500px;
+    background-color: red;
+}
+
+.item{
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.crwd{
+    height: 80vh;
+}
