@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;/*main axis will be row and every item will be placed from left to right*/
+    /*flex-direction: row-reverse;main axis will be row-reverse and every item will be placed from right to left*/
+    /*flex-direction: column;main axis will be column and every item will be placed from top to bottom*/
+    /* justify-content: center;row-left to right so item will be placed from ledt to right */
+    flex-wrap: wrap;
+}
+
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: darkkhaki;
+}
+#box4 {
+    background-color: indianred;
+}
+#box5 {
+    background-color: slateblue;
+}

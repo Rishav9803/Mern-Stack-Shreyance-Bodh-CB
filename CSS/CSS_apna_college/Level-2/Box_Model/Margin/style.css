@@ -1,0 +1,7 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    margin: 50px;/*clockwise- top, right, bottom, left, or if we give margin:50px it'll apply to all sides*/
+}

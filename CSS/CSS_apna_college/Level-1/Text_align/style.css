@@ -1,0 +1,3 @@
+p{
+    text-align: center; /* we can align text like this in centre, left and right or it will align according to it's parent tag not according to document, like is it's in div then the text under div will align not the whole div */
+}

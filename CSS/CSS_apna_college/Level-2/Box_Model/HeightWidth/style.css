@@ -1,0 +1,13 @@
+div{
+    height: 100px;/*it'll increse height of content inside the div*/
+    background-color: brown;
+    width: 100px;/*it'll give width to the content*/
+}
+
+h1{ 
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 2px dashed lemonchiffon;
+    text-align: center; /*So the text heading aligned according to the box not according to the document*/
+}

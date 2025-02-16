@@ -1,0 +1,13 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+ }
+
+ .box2{
+    background-color: yellow;
+    height: 50px;
+    width: 33%;
+    font-size: 2rem;/*So, font size of the root element*/
+ }

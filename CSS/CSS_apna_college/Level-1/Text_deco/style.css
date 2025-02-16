@@ -1,0 +1,6 @@
+#outer{
+    font-size: 25px;/*if we not apply css on inner one then our inner div will act according to outer and it'll enlarge*/
+}
+#inner{
+    font-size: 10px;
+}

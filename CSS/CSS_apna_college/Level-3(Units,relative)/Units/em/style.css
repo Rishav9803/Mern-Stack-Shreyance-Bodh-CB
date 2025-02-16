@@ -1,0 +1,14 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+ }
+
+ .box2{
+    background-color: yellow;
+    height: 50px;
+    width: 33%;/*so if we see box2 took width 33% according to box 1 */
+    margin-left: 10%;
+    font-size: 2em;
+   }
